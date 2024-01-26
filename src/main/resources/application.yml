@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    username: postgres
+    password: postgres
+    url: jdbc:postgresql://localhost:5432/sales_system_db
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
